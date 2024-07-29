@@ -1,0 +1,53 @@
+.syllabus-page {
+  .syllabus-section {
+    margin: 1rem auto;
+    padding: 1rem;
+
+    border: 1px solid black;
+
+    width: 80vw;
+
+    .subjects {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 1rem;
+
+      span {
+        // border: 1px solid black;
+        padding: 0.5rem 1rem;
+      }
+      .active {
+        border-bottom: 1px solid cornflowerblue;
+      }
+    }
+
+    select {
+      margin: 1rem 0;
+      padding: 0.5rem 1rem;
+      outline: none;
+    }
+
+    .content-container {
+      border: 1px solid black;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      table {
+        width: 100%;
+
+        thead {
+          font-weight: 700;
+        }
+
+        td {
+          text-align: center;
+
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}
